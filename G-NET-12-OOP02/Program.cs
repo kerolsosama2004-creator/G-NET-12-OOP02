@@ -272,6 +272,92 @@ namespace G_NET_12_OOP02
             #endregion
 
             #endregion
+
+            #region Part 02 : Practical (Extending the Movie Ticket Booking System)
+
+            //Cinema cinema = new Cinema();
+
+            //Console.WriteLine("Ticket Booking:\n");
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter data for Ticket {i + 1}:");
+
+            //    Console.Write("Movie Name: ");
+            //    string movieName = Console.ReadLine();
+
+            //    Console.Write("Ticket Type (0=Standard, 1=VIP, 2=IMAX): ");
+            //    TicketType type = (TicketType)int.Parse(Console.ReadLine());
+
+            //    Console.Write("Seat Row (A-Z): ");
+            //    char row = char.Parse(Console.ReadLine());
+
+            //    Console.Write("Seat Number: ");
+            //    int number = int.Parse(Console.ReadLine());
+
+            //    Console.Write("Price: ");
+            //    double price = double.Parse(Console.ReadLine());
+
+            //    Ticket ticket = new Ticket(
+            //        movieName,
+            //        type,
+            //        new SeatLocation(row, number),
+            //        price
+            //    );
+
+            //    cinema.AddTicket(ticket);
+
+            //    Console.WriteLine();
+            //}
+
+            //// Print all tickets
+            //Console.WriteLine("All Tickets\n");
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Ticket t = cinema[i];
+
+            //    if (t != null)
+            //    {
+            //        Console.WriteLine(
+            //            $"Ticket #{t.TicketId} | {t.MovieName} | {t.Type} | Seat: {t.Seat} | " +
+            //            $"Price: {t.Price} EGP | After Tax: {t.PriceAfterTax} EGP");
+            //    }
+            //}
+
+            //// Search by movie
+            //Console.WriteLine("\n== Search by Movie ==");
+            //Console.Write("Enter movie name to search: ");
+            //string searchName = Console.ReadLine();
+
+            //Ticket found = cinema[searchName];
+
+            //if (found != null)
+            //{
+            //    Console.WriteLine(
+            //        $"Found: Ticket #{found.TicketId} | {found.MovieName} | {found.Type} | Seat: {found.Seat} | Price: {found.Price} EGP");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Movie not found.");
+            //}
+
+            //// Total tickets sold
+            //Console.WriteLine("\nStatistics");
+            //Console.WriteLine($"Total Tickets Sold: {Ticket.GetTotalTicketsSold()}");
+
+            //// Booking references
+            //Console.WriteLine($"\nBooking Reference 1: {BookingHelper.GenerateBookingReference()}");
+            //Console.WriteLine($"Booking Reference 2: {BookingHelper.GenerateBookingReference()}");
+
+            //// Group discount
+            //double discountTotal = BookingHelper.CalcGroupDiscount(5, 80);
+            //Console.WriteLine($"\nGroup Discount (5 tickets x 80 EGP): {discountTotal} EGP");
+
+            #endregion
         }
+
+        
     }
-}
+ }
+
